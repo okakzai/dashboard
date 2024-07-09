@@ -4,9 +4,9 @@
 
 Website dashboard adalah website untuk manajemen penjualan menggunakan Laravel dengan teknologi sebagai berikut:
 
-- [Laravel 10](https://laravel.com/docs/10.x/releases).
-- [Laravel Filament 3](https://filamentphp.com/docs/3.x/panels/installation) yang sudah terdapat Tailwind CSS di dalamnya.
-- [Laravel Trend](https://github.com/Flowframe/laravel-trend).
+- [Laravel 10](https://laravel.com/docs/10.x/releases)
+- [Laravel Filament 3](https://filamentphp.com/docs/3.x/panels/installation) yang sudah terdapat Tailwind CSS di dalamnya
+- [Laravel Trend](https://github.com/Flowframe/laravel-trend)
 
 ## Level User
 
