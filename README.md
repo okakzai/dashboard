@@ -1,96 +1,27 @@
 <p align="center"><img src="dashboard.png" alt="Dashboard" title="Dashboard"></p>
 
-## Installation
+## Website Dashboard
 
-Clone the repo locally:
+Website dashboard adalah website untuk manajemen penjualan menggunakan Laravel dengan teknologi sebagai berikut:
 
-```sh
-git clone https://github.com/laravel-filament/demo.git filament-demo && cd filament-demo
-```
+- [Laravel 10](https://laravel.com/docs/10.x/releases).
+- [Laravel Filament 3](https://filamentphp.com/docs/3.x/panels/installation) yang sudah terdapat Tailwind CSS di dalamnya.
+- [Laravel Trend](https://github.com/Flowframe/laravel-trend).
 
-Install PHP dependencies:
+## Level User
 
-```sh
-composer install
-```
+- Admin
 
-Setup configuration:
+## Fitur
 
-```sh
-cp .env.example .env
-```
-
-Generate application key:
-
-```sh
-php artisan key:generate
-```
-
-Create an SQLite database. You can also use another database (MySQL, Postgres), simply update your configuration accordingly.
-
-```sh
-touch database/database.sqlite
-```
-
-Run database migrations:
-
-```sh
-php artisan migrate
-```
-
-Run database seeder:
-
-```sh
-php artisan db:seed
-```
-
-> **Note**  
-> If you get an "Invalid datetime format (1292)" error, this is probably related to the timezone setting of your database.  
-> Please see https://dba.stackexchange.com/questions/234270/incorrect-datetime-value-mysql
-
-
-Create a symlink to the storage:
-
-```sh
-php artisan storage:link
-```
-
-Run the dev server (the output will give the address):
-
-```sh
-php artisan serve
-```
-
-You're ready to go! Visit the url in your browser, and login with:
-
--   **Username:** admin@filamentphp.com
--   **Password:** password
-
-## Features to explore
-
-### Relations
-
-#### BelongsTo
-- ProductResource
-- OrderResource
-- PostResource
-
-#### BelongsToMany
-- CategoryResource\RelationManagers\ProductsRelationManager
-
-#### HasMany
-- OrderResource\RelationManagers\PaymentsRelationManager
-
-#### HasManyThrough
-- CustomerResource\RelationManagers\PaymentsRelationManager
-
-#### MorphOne
-- OrderResource -> Address
-
-#### MorphMany
-- ProductResource\RelationManagers\CommentsRelationManager
-- PostResource\RelationManagers\CommentsRelationManager
-
-#### MorphToMany
-- BrandResource\RelationManagers\AddressRelationManager
-- CustomerResource\RelationManagers\AddressRelationManager
+- Halaman Login
+- Menu Logout
+- Menu Dashboard
+- Menu Notifikasi
+- Manajemen Produk (CRUD)
+- Manajemen Order (CRUD)
+- Manajemen Pelanggan (CRUD)
+- Manajemen Postingan (CRUD)
+- Manajemen Kategori (CRUD)
+- Manajemen Penulis (CRUD)
+- Manajemen Link (CRUD)
